@@ -93,6 +93,21 @@ public class Main {
 
         sayHello("Halit","Engin","Çınar");
 
+//        Product product1 = new Product(); // yeni bir ürün
+//        product1.name = "Kulaklık";
+//        product1.stock = 500;
+//        product1.price = 1000;
+//        product1.makeDiscount();
+        Product product2 = new Product(
+                "Laptop",
+                5000,
+                50);
+
+        TaxCalculator.CalculateKdv(200);
+        TaxCalculator.CalculateKdv(300);
+        TaxCalculator.CalculateKdv(500);
+        TaxCalculator.CalculateKdv(700);
+
 
     }
 

@@ -91,6 +91,19 @@ public class Main {
         System.out.println(calculateTax(10, 0.1));
         System.out.println(calculateTax(10, 0.2));
 
+        sayHello("Halit","Engin","Çınar");
+
+//        Product product1 = new Product(); // yeni bir ürün
+//        product1.name = "Kulaklık";
+//        product1.stock = 500;
+//        product1.price = 1000;
+//        product1.makeDiscount();
+        Product product2 = new Product(
+                "Laptop",
+                5000,
+                50);
+
+
     }
 
     public static void sendEmail(String email) {
@@ -107,4 +120,6 @@ public class Main {
             System.out.println("Hello " + names[i]);
         }
     }
+
+
 }
