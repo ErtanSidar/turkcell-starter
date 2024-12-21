@@ -1,6 +1,6 @@
-package org.essoft;
+package org.essoft.oop;
 
-public class IndiviualCustomer extends Customer {
+public class IndividualCustomer extends Customer {
     private String identityNo;
 
     public String getIdentityNo() {

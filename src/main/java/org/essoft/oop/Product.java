@@ -1,4 +1,4 @@
-package org.essoft;
+package org.essoft.oop;
 
 public class Product {
     public Product(String name, double price, int stock) {

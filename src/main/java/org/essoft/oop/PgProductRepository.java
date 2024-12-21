@@ -1,12 +1,11 @@
-package org.essoft;
+package org.essoft.oop;
 
 import java.util.List;
 
-public class MssqlProductRepository implements ProductRepository {
-
+public class PgProductRepository implements ProductRepository {
     @Override
     public void addProduct(Product product) {
-        System.out.println("MssqlProductRepository.addProduct");
+        System.out.println("PgProduct added");
     }
 
     @Override
