@@ -10,4 +10,9 @@ public class CorporateCustomer extends Customer {
     public void setTaxNo(String taxNo) {
         this.taxNo = taxNo;
     }
+
+    @Override
+    public void buy() {
+        System.out.println("CorporateCustomer.buy");
+    }
 }

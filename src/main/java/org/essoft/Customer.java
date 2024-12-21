@@ -10,4 +10,8 @@ public class Customer {
     public void setCustomerNo(String customerNo) {
         this.customerNo = customerNo;
     }
+
+    public void buy() {
+        System.out.println("Customer buy methodu.");
+    }
 }

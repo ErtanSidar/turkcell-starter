@@ -110,9 +110,11 @@ public class Main {
 
         CorporateCustomer corporateCustomer = new CorporateCustomer();
         corporateCustomer.setCustomerNo("ABC123");
+        corporateCustomer.buy();
 
         IndiviualCustomer individualCustomer = new IndiviualCustomer();
         individualCustomer.setCustomerNo("GHJ456");
+        individualCustomer.buy();
 
 
     }
