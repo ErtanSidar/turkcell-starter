@@ -117,10 +117,7 @@ public class Main {
         individualCustomer.buy();
 
         ProductRepository productRepository = new PgProductRepository();
-        productRepository.getAllProducts();
-
-        ProductRepository productRepository2 = new MssqlProductRepository();
-        productRepository2.getAllProducts();
+        
 
 
     }
