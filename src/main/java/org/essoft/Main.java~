@@ -103,6 +103,11 @@ public class Main {
                 5000,
                 50);
 
+        TaxCalculator.CalculateKdv(200);
+        TaxCalculator.CalculateKdv(300);
+        TaxCalculator.CalculateKdv(500);
+        TaxCalculator.CalculateKdv(700);
+
 
     }
 
